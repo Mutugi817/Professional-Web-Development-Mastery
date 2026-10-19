@@ -1,0 +1,37 @@
+ /* Css introduction */
+
+/* *, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+* {
+    border: 2px solid red;
+}
+
+ h1 {
+     color: greenyellow;
+     background-color: gray;
+ }
+
+button {
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(5, 227, 120);
+    color: white;
+}
+
+.btn {
+    background: linear-gradient(135deg, blue, red)
+}
+
+#no3 {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 500;
+
+}

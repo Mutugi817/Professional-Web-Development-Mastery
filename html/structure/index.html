@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="charset" content="utf-8">
+        <title>My website</title>
+    </head>
+    <body>
+        <h1 id="myH1" >Welcome to my first website</h1>
+        <!-- <img src="pic1.jpeg" alt="This is an image of a cat">
+         -->
+        <script>
+            function addTwoNumber() {
+                let first = prompt("Enter the first integer");
+                let second = prompt("Enter the second integer");
+                first = parseInt(first)
+                second = parseInt(second)
+    
+                if(isNaN(first) || isNaN(second)) {
+                   return alert("Please enter valid integers"); 
+                }
+
+                let sum = first + second;
+
+                alert("The sum is " + sum);
+
+            }
+
+           // addTwoNumber()
+
+           /**
+            * Calculates the area of a circle
+            * @param {number} The radius of the circle
+            * @returns {number} The area of the circle
+            * */
+           function areaOfACircle(radius) {
+                // A = pi * r ** 2
+
+                let area = 3.14 * Math.pow(radius, 2)
+
+                console.log(area)
+
+                return area
+           }
+
+           areaOfACircle(3)
+           areaOfACircle(6)
+           areaOfACircle(9)
+           areaOfACircle(12)
+           areaOfACircle(75)
+           areaOfACircle(65)
+        </script>
+    </body>
+</html>
